@@ -1,0 +1,38 @@
+name: village_bus_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.1
+  geolocator: ^14.0.2
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  firebase_database: ^12.3.0
+  google_maps_flutter: ^2.17.0
+  flutter_tts: ^4.2.5
+  geocoding: ^4.0.0
+  url_launcher: ^6.3.2
+  background_fetch: ^1.6.2
+  flutter_background_service: ^5.1.0
+  google_sign_in: ^7.2.0
+  shared_preferences: ^2.5.5
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  flutter_local_notifications: ^21.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
